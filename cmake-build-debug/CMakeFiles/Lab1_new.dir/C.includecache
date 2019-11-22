@@ -13,8 +13,6 @@ math.h
 -
 omp.h
 -
-time.h
--
 sys/time.h
 -
 
