@@ -86,7 +86,7 @@ long double Calculate_Pi_Parallel(long n)
         }
         double pi;
         pi = 4 * (double) Naccept / n;
-        return pi;
+        return 0;
     }
 
 }
@@ -94,7 +94,7 @@ long double Calculate_Pi_Parallel(long n)
 main(){
     struct timeval start, end;
     long  n;
-    n = 10000;
+    n = 10000000;
     gettimeofday(&start, NULL);
     printf("Timing sequentiona1...\n");
     long double sequential_pi = Calculate_Pi_Sequential(n);
