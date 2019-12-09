@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lab1_new
+# Target rules for targets named Lab1_MonteCarlo
 
 # Build rule for target.
-Lab1_new: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Lab1_new
-.PHONY : Lab1_new
+Lab1_MonteCarlo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Lab1_MonteCarlo
+.PHONY : Lab1_MonteCarlo
 
 # fast build rule for target.
-Lab1_new/fast:
-	$(MAKE) -f CMakeFiles/Lab1_new.dir/build.make CMakeFiles/Lab1_new.dir/build
-.PHONY : Lab1_new/fast
+Lab1_MonteCarlo/fast:
+	$(MAKE) -f CMakeFiles/Lab1_MonteCarlo.dir/build.make CMakeFiles/Lab1_MonteCarlo.dir/build
+.PHONY : Lab1_MonteCarlo/fast
 
 main.o: main.c.o
 
@@ -129,7 +129,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	$(MAKE) -f CMakeFiles/Lab1_new.dir/build.make CMakeFiles/Lab1_new.dir/main.c.o
+	$(MAKE) -f CMakeFiles/Lab1_MonteCarlo.dir/build.make CMakeFiles/Lab1_MonteCarlo.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -138,7 +138,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	$(MAKE) -f CMakeFiles/Lab1_new.dir/build.make CMakeFiles/Lab1_new.dir/main.c.i
+	$(MAKE) -f CMakeFiles/Lab1_MonteCarlo.dir/build.make CMakeFiles/Lab1_MonteCarlo.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -147,7 +147,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	$(MAKE) -f CMakeFiles/Lab1_new.dir/build.make CMakeFiles/Lab1_new.dir/main.c.s
+	$(MAKE) -f CMakeFiles/Lab1_MonteCarlo.dir/build.make CMakeFiles/Lab1_MonteCarlo.dir/main.c.s
 .PHONY : main.c.s
 
 # Help Target
@@ -157,7 +157,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Lab1_new"
+	@echo "... Lab1_MonteCarlo"
 	@echo "... edit_cache"
 	@echo "... main.o"
 	@echo "... main.i"

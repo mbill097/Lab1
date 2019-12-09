@@ -53,12 +53,12 @@ CMAKE_BINARY_DIR = /cygdrive/c/Users/mbill/CLionProjects/Lab1_new/cmake-build-de
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Lab1_new.dir/all
+all: CMakeFiles/Lab1_MonteCarlo.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Lab1_new.dir/clean
+clean: CMakeFiles/Lab1_MonteCarlo.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +68,31 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Lab1_new.dir
+# Target rules for target CMakeFiles/Lab1_MonteCarlo.dir
 
 # All Build rule for target.
-CMakeFiles/Lab1_new.dir/all:
-	$(MAKE) -f CMakeFiles/Lab1_new.dir/build.make CMakeFiles/Lab1_new.dir/depend
-	$(MAKE) -f CMakeFiles/Lab1_new.dir/build.make CMakeFiles/Lab1_new.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/mbill/CLionProjects/Lab1_new/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Lab1_new"
-.PHONY : CMakeFiles/Lab1_new.dir/all
+CMakeFiles/Lab1_MonteCarlo.dir/all:
+	$(MAKE) -f CMakeFiles/Lab1_MonteCarlo.dir/build.make CMakeFiles/Lab1_MonteCarlo.dir/depend
+	$(MAKE) -f CMakeFiles/Lab1_MonteCarlo.dir/build.make CMakeFiles/Lab1_MonteCarlo.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/cygdrive/c/Users/mbill/CLionProjects/Lab1_new/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Lab1_MonteCarlo"
+.PHONY : CMakeFiles/Lab1_MonteCarlo.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Lab1_new.dir/rule: cmake_check_build_system
+CMakeFiles/Lab1_MonteCarlo.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/mbill/CLionProjects/Lab1_new/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lab1_new.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Lab1_MonteCarlo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /cygdrive/c/Users/mbill/CLionProjects/Lab1_new/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Lab1_new.dir/rule
+.PHONY : CMakeFiles/Lab1_MonteCarlo.dir/rule
 
 # Convenience name for target.
-Lab1_new: CMakeFiles/Lab1_new.dir/rule
+Lab1_MonteCarlo: CMakeFiles/Lab1_MonteCarlo.dir/rule
 
-.PHONY : Lab1_new
+.PHONY : Lab1_MonteCarlo
 
 # clean rule for target.
-CMakeFiles/Lab1_new.dir/clean:
-	$(MAKE) -f CMakeFiles/Lab1_new.dir/build.make CMakeFiles/Lab1_new.dir/clean
-.PHONY : CMakeFiles/Lab1_new.dir/clean
+CMakeFiles/Lab1_MonteCarlo.dir/clean:
+	$(MAKE) -f CMakeFiles/Lab1_MonteCarlo.dir/build.make CMakeFiles/Lab1_MonteCarlo.dir/clean
+.PHONY : CMakeFiles/Lab1_MonteCarlo.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
